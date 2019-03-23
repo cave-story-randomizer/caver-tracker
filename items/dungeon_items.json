@@ -1,0 +1,530 @@
+[
+  // Eastern Palace
+  {
+    "name": "Eastern Palace",
+    "type": "progressive_toggle",
+    "capturable": false,
+    "stages": [
+      {
+        "img": "images/0105.png",
+        "codes": "ep,easternpalace,crystal",
+        "secondary_codes": "crystal"
+      },
+      {
+        "img": "images/0106.png",
+        "codes": "ep,easternpalace,crystal56",
+        "secondary_codes": "crystal five six, red crystal, fairy crystal"
+      },
+      {
+        "img": "images/0107.png",
+        "codes": "ep,easternpalace,pendant",
+        "secondary_codes": "pendant, red pendant, blue pendant"
+      },
+      {
+        "img": "images/0108.png",
+        "codes": "ep,easternpalace,greenpendant",
+        "secondary_codes": "green pendant"
+      }
+    ]
+  },
+  // Desert Palace
+  {
+    "name": "Desert Palace",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/0109.png",
+        "codes": "dp,desertpalace,crystal",
+        "secondary_codes": "crystal"
+      },
+      {
+        "img": "images/0110.png",
+        "codes": "dp,desertpalace,crystal56",
+        "secondary_codes": "crystal five six, red crystal, fairy crystal"
+      },
+      {
+        "img": "images/0111.png",
+        "codes": "dp,desertpalace,pendant",
+        "secondary_codes": "pendant, red pendant, blue pendant"
+      },
+      {
+        "img": "images/0112.png",
+        "codes": "dp,desertpalace,greenpendant",
+        "secondary_codes": "green pendant"
+      }
+    ]
+  },
+  // Tower of Hera
+  {
+    "name": "Tower of Hera",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/0113.png",
+        "codes": "toh,towerofhera,crystal"
+      },
+      {
+        "img": "images/0114.png",
+        "codes": "toh,towerofhera,crystal56"
+      },
+      {
+        "img": "images/0115.png",
+        "codes": "toh,towerofhera,pendant"
+      },
+      {
+        "img": "images/0116.png",
+        "codes": "toh,towerofhera,greenpendant"
+      }
+    ]
+  },
+  // Palace of Darkness
+  {
+    "name": "Palace of Darkness",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/0077.png",
+        "codes": "pod,palaceofdarkness,crystal"
+      },
+      {
+        "img": "images/0078.png",
+        "codes": "pod,palaceofdarkness,crystal56"
+      },
+      {
+        "img": "images/0079.png",
+        "codes": "pod,palaceofdarkness,pendant"
+      },
+      {
+        "img": "images/0080.png",
+        "codes": "pod,palaceofdarkness,greenpendant"
+      }
+    ]
+  },
+  // Swamp Palace
+  {
+    "name": "Swamp Palace",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/0081.png",
+        "codes": "sp,swamppalace,crystal"
+      },
+      {
+        "img": "images/0082.png",
+        "codes": "sp,swamppalace,crystal56"
+      },
+      {
+        "img": "images/0083.png",
+        "codes": "sp,swamppalace,pendant"
+      },
+      {
+        "img": "images/0084.png",
+        "codes": "sp,swamppalace,greenpendant"
+      }
+    ]
+  },
+  // Skull Woods
+  {
+    "name": "Skull Woods",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/0085.png",
+        "codes": "sw,skullwoods,crystal"
+      },
+      {
+        "img": "images/0086.png",
+        "codes": "sw,skullwoods,crystal56"
+      },
+      {
+        "img": "images/0087.png",
+        "codes": "sw,skullwoods,pendant"
+      },
+      {
+        "img": "images/0088.png",
+        "codes": "sw,skullwoods,greenpendant"
+      }
+    ]
+  },
+  // Thieve's Town
+  {
+    "name": "Thieves Town",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/0089.png",
+        "codes": "tt,thievestown,crystal"
+      },
+      {
+        "img": "images/0090.png",
+        "codes": "tt,thievestown,crystal56"
+      },
+      {
+        "img": "images/0091.png",
+        "codes": "tt,thievestown,pendant"
+      },
+      {
+        "img": "images/0092.png",
+        "codes": "tt,thievestown,greenpendant"
+      }
+    ]
+  },
+  // Ice Palace
+  {
+    "name": "Ice Palace",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/0093.png",
+        "codes": "ip,icepalace,crystal"
+      },
+      {
+        "img": "images/0094.png",
+        "codes": "ip,icepalace,crystal56"
+      },
+      {
+        "img": "images/0095.png",
+        "codes": "ip,icepalace,pendant"
+      },
+      {
+        "img": "images/0096.png",
+        "codes": "ip,icepalace,greenpendant"
+      }
+    ]
+  },
+  // Misery Mire
+  {
+    "name": "Misery Mire",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/0097.png",
+        "codes": "mm,miserymire,crystal"
+      },
+      {
+        "img": "images/0098.png",
+        "codes": "mm,miserymire,crystal56"
+      },
+      {
+        "img": "images/0099.png",
+        "codes": "mm,miserymire,pendant"
+      },
+      {
+        "img": "images/0100.png",
+        "codes": "mm,miserymire,greenpendant"
+      }
+    ]
+  },
+  // Turtle Rock
+  {
+    "name": "Turtle Rock",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/0101.png",
+        "codes": "tr,turtlerock,crystal"
+      },
+      {
+        "img": "images/0102.png",
+        "codes": "tr,turtlerock,crystal56"
+      },
+      {
+        "img": "images/0103.png",
+        "codes": "tr,turtlerock,pendant"
+      },
+      {
+        "img": "images/0104.png",
+        "codes": "tr,turtlerock,greenpendant"
+      }
+    ]
+  },
+  // Eastern Big Key
+  {
+    "name": "Eastern Palace Big Key",
+    "type": "toggle",
+    "img": "images/BigKey.png",
+    "codes": "ep_bigkey"
+  },
+  // Desert Big Key
+  {
+    "name": "Desert Palace Big Key",
+    "type": "toggle",
+    "img": "images/BigKey.png",
+    "codes": "dp_bigkey"
+  },
+  // Desert Small Keys
+  {
+    "name": "Desert Palace Small Keys",
+    "type": "consumable",
+    "img": "images/SmallKey2.png",
+    "codes": "dp_smallkey",
+    "max_quantity": 1
+  },
+  // Hera Big Key
+  {
+    "name": "Tower of Hera Big Key",
+    "type": "toggle",
+    "img": "images/BigKey.png",
+    "codes": "toh_bigkey"
+  },
+  // Hera Small Keys
+  {
+    "name": "Tower of Hera Small Keys",
+    "type": "consumable",
+    "img": "images/SmallKey2.png",
+    "codes": "toh_smallkey",
+    "max_quantity": 1
+  },
+  // POD Big Key
+  {
+    "name": "Palace of Darkness Big Key",
+    "type": "toggle",
+    "img": "images/BigKey.png",
+    "codes": "pod_bigkey"
+  },
+  // POD Small Keys
+  {
+    "name": "Palace of Darkness Small Keys",
+    "type": "consumable",
+    "img": "images/SmallKey2.png",
+    "codes": "pod_smallkey",
+    "max_quantity": 6
+  },
+  // SP Big Key
+  {
+    "name": "Swamp Palace Big Key",
+    "type": "toggle",
+    "img": "images/BigKey.png",
+    "codes": "sp_bigkey"
+  },
+  // SP Small Keys
+  {
+    "name": "Swamp Palace Small Keys",
+    "type": "consumable",
+    "img": "images/SmallKey2.png",
+    "codes": "sp_smallkey",
+    "max_quantity": 1
+  },
+  // SW Big Key
+  {
+    "name": "Skull Woods Big Key",
+    "type": "toggle",
+    "img": "images/BigKey.png",
+    "codes": "sw_bigkey"
+  },
+  // SW Small Keys
+  {
+    "name": "Skull Woods Small Keys",
+    "type": "consumable",
+    "img": "images/SmallKey2.png",
+    "codes": "sw_smallkey",
+    "max_quantity": 3
+  },
+  // TT Big Key
+  {
+    "name": "Thieves Town Big Key",
+    "type": "toggle",
+    "img": "images/BigKey.png",
+    "codes": "tt_bigkey"
+  },
+  // TT Small Keys
+  {
+    "name": "Thieves Town Small Keys",
+    "type": "consumable",
+    "img": "images/SmallKey2.png",
+    "codes": "tt_smallkey",
+    "max_quantity": 1
+  },
+  // IP Big Key
+  {
+    "name": "Ice Palace Big Key",
+    "type": "toggle",
+    "img": "images/BigKey.png",
+    "codes": "ip_bigkey"
+  },
+  // IP Small Keys
+  {
+    "name": "Ice Palace Small Keys",
+    "type": "consumable",
+    "img": "images/SmallKey2.png",
+    "codes": "ip_smallkey",
+    "max_quantity": 2
+  },
+  // MM Big Key
+  {
+    "name": "Misery Mire Big Key",
+    "type": "toggle",
+    "img": "images/BigKey.png",
+    "codes": "mm_bigkey"
+  },
+  // MM Small Keys
+  {
+    "name": "Misery Mire Small Keys",
+    "type": "consumable",
+    "img": "images/SmallKey2.png",
+    "codes": "mm_smallkey",
+    "max_quantity": 3
+  },
+  // TR Big Key
+  {
+    "name": "Turtle Rock Big Key",
+    "type": "toggle",
+    "img": "images/BigKey.png",
+    "codes": "tr_bigkey"
+  },
+  // TR Small Keys
+  {
+    "name": "Turtle Rock Small Keys",
+    "type": "consumable",
+    "img": "images/SmallKey2.png",
+    "codes": "tr_smallkey",
+    "max_quantity": 4
+  },
+  // HC Small Keys
+  {
+    "name": "Hyrule Castle Small Keys",
+    "type": "consumable",
+    "img": "images/SmallKey2.png",
+    "codes": "hc_smallkey",
+    "max_quantity": 1
+  },
+  // AT Small Keys
+  {
+    "name": "Aganhim's Tower Small Keys",
+    "type": "consumable",
+    "img": "images/SmallKey2.png",
+    "codes": "at_smallkey",
+    "max_quantity": 2
+  },
+  // GT Small Keys
+  {
+    "name": "Ganon's Tower Small Keys",
+    "type": "consumable",
+    "img": "images/SmallKey2.png",
+    "codes": "gt_smallkey",
+    "max_quantity": 4
+  },
+  // GT Big Key
+  {
+    "name": "Ganon's Tower Big Key",
+    "type": "toggle",
+    "img": "images/BigKey.png",
+    "codes": "gt_bigkey"
+  },
+  // Generic Small Keys
+  {
+    "name": "Generic Small Key",
+    "type": "static",
+    "img": "images/SmallKey2.png",
+    "codes": "generic_smallkey",
+    "capturable": true
+  },
+  // Generic Big Keys
+  {
+    "name": "Generic Big Key",
+    "type": "static",
+    "img": "images/BigKey.png",
+    "codes": "generic_bigkey",
+    "capturable": true
+  },
+  // HC Label
+  {
+    "name": "Hyrule Castle",
+    "type": "static",
+    "img": "images/HC.png",
+    "codes": "hc_label"
+  },
+  // AT Label
+  {
+    "name": "Aganhim's Tower",
+    "type": "static",
+    "img": "images/AT.png",
+    "codes": "at_label"
+  },
+  // EP Label
+  {
+    "name": "Eastern Palace",
+    "type": "static",
+    "img": "images/EP.png",
+    "codes": "ep_label"
+  },
+  // DP Label
+  {
+    "name": "Desert Palace",
+    "type": "static",
+    "img": "images/DP.png",
+    "codes": "dp_label"
+  },
+  // TOH Label
+  {
+    "name": "Tower of Hera",
+    "type": "static",
+    "img": "images/TH.png",
+    "codes": "toh_label"
+  },
+  // POD Label
+  {
+    "name": "Palace of Darkness",
+    "type": "static",
+    "img": "images/PD.png",
+    "codes": "pod_label"
+  },
+  // SP Label
+  {
+    "name": "Swamp Palace",
+    "type": "static",
+    "img": "images/SP.png",
+    "codes": "sp_label"
+  },
+  // SW Label
+  {
+    "name": "Skull Woods",
+    "type": "static",
+    "img": "images/SW.png",
+    "codes": "sw_label"
+  },
+  // TT Label
+  {
+    "name": "Thieves Town",
+    "type": "static",
+    "img": "images/TT.png",
+    "codes": "tt_label"
+  },
+  // IP Label
+  {
+    "name": "Ice Palace",
+    "type": "static",
+    "img": "images/IP.png",
+    "codes": "ip_label"
+  },
+  // MM Label
+  {
+    "name": "Misery Mire",
+    "type": "static",
+    "img": "images/MM.png",
+    "codes": "mm_label"
+  },
+  // TR Label
+  {
+    "name": "Turtle Rock",
+    "type": "static",
+    "img": "images/TR.png",
+    "codes": "tr_label"
+  },
+  // GT Label
+  {
+    "name": "Ganon's Tower",
+    "type": "static",
+    "img": "images/GT.png",
+    "codes": "gt_label"
+  }
+]

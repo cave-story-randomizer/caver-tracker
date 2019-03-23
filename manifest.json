@@ -1,0 +1,16 @@
+﻿{
+  "name": "Official CSR Item and Map Tracker",
+  "game_name": "Cave Story Randomizer [Open Mode]",
+  "platform": "PC",
+  "package_version": "0.8.0.0",
+  "package_uid": "cavestory_tracker_duncathan",
+  "author": "duncathan_salt",
+  "variants": {
+    "standard": {
+      "display_name": "Map and Items"
+    },
+    "items_only": {
+      "display_name": "Items Only"
+    }
+  }
+}
