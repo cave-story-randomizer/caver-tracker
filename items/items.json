@@ -1,0 +1,537 @@
+[
+  {
+    "name": "Hermit's Gun",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/weapons/polarstar.png",
+        "codes": "polarStar,weaponBoss,weaponSN"
+      },
+      {
+        "img": "images/weapons/spur.png",
+        "codes": "spur"
+      }
+    ]
+  },
+  {
+    "name": "Missile Launcher",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/weapons/missilelauncher.png",
+        "codes": "missiles,weaponSN"
+      },
+      {
+        "img": "images/weapons/supermissilelauncher.png",
+        "codes": "supers"
+      }
+    ]
+  },
+  {
+    "name": "Fireball",
+    "type": "toggle",
+    "img": "images/weapons/fireball.png",
+    "codes": "fireball,weaponBoss"
+  },
+  {
+    "name": "Bubbler",
+    "type": "toggle",
+    "img": "images/weapons/bubbler.png",
+    "codes": "bubbler,weaponBoss"
+  },
+  {
+    "name": "Machine Gun",
+    "type": "toggle",
+    "img": "images/weapons/machinegun.png",
+    "codes": "machineGun,weaponBoss,weaponSN,flight"
+  },
+  {
+    "name": "Blade",
+    "type": "toggle",
+    "img": "images/weapons/blade.png",
+    "codes": "blade,weaponBoss,weaponSN"
+  },
+  {
+    "name": "Snake",
+    "type": "toggle",
+    "img": "images/weapons/snake.png",
+    "codes": "snake,weaponBoss"
+  },
+  {
+    "name": "Nemesis",
+    "type": "toggle",
+    "img": "images/weapons/nemesis.png",
+    "codes": "nemesis,weaponBoss,weaponSN"
+  },
+  {
+    "name": "Map System",
+    "type": "toggle",
+    "img": "images/mapsystem.png",
+    "codes": "mapSystem"
+  },
+  {
+    "name": "Silver Locket",
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/silverlocket.png",
+        "codes": "silverLocket,locket"
+      },
+      {
+        "img": "images/silverlockettoroko.png",
+        "codes": "silverLocket,locket",
+        "secondary_codes": "toroko"
+      }
+    ]
+  },
+  {
+    "name": "Arthur's Key",
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/arthurskey.png",
+        "codes": "arthursKey,arthurs"
+      },
+      {
+        "img": "images/arthurskeyused.png",
+        "codes": "arthursKey,arthurs",
+        "secondary_codes": "used"
+      }
+    ]
+  },
+  {
+    "name": "ID Card",
+    "type": "toggle",
+    "img": "images/idcard.png",
+    "codes": "idcard"
+  },
+  {
+    "name": "Santa's Key",
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/santaskey.png",
+        "codes": "santasKey,santaKey,santas,santa"
+      },
+      {
+        "img": "images/santaskeyused.png",
+        "codes": "santasKey,santaKey,santas,santa",
+        "secondary_codes": "used"
+      }
+    ]
+  },
+  {
+    "name": "Chaco's Lipstick",
+    "type": "toggle",
+    "img": "images/lipstick.png",
+    "codes": "lipstick,chacosLipstick"
+  },
+  {
+    "name": "Curly's Panties",
+    "type": "toggle",
+    "img": "images/panties.png",
+    "codes": "panties,curlysPanties"
+  },
+  {
+    "name": "Lewds",
+    "type": "composite_toggle",
+    "codes": "lewds",
+    "item_left": "lipstick",
+    "item_right": "panties",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "images/lewds.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "images/lewdslipstick.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "images/lewdspanties.png"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "images/lewds.png"
+      }
+    ]
+  },
+  {
+    "name": "Jellyfish Juice",
+    "type": "toggle",
+    "img": "images/juice.png",
+    "codes": "jellyfishJuice,juice"
+  },
+  {
+    "name": "Charcoal",
+    "type": "toggle",
+    "img": "images/charcoal.png",
+    "codes": "charcoal"
+  },
+  {
+    "name": "Rusty Key",
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/rustykey.png",
+        "codes": "rustyKey,rusty"
+      }
+    ]
+  },
+  {
+    "name": "Gum Key",
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/gumkey.png",
+        "codes": "gumKey"
+      },
+      {
+        "img": "images/gumkeyused.png",
+        "codes": "gumKey",
+        "secondary_codes": "used"
+      }
+    ]
+  },
+  {
+    "name": "Gum Base",
+    "type": "toggle",
+    "img": "images/gumbase.png",
+    "codes": "gumBase,gum"
+  },
+  {
+    "name": "Bomb",
+    "type": "toggle",
+    "img": "images/bomb.png",
+    "codes": "bomb,explosive"
+  },
+
+  {
+    "name": "Puppies",
+    "type": "progressive",
+    "allow_disabled": "false",
+    "stages": [
+      {
+        "img": "images/puppy0.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "img": "images/puppy1.png",
+        "codes": "puppy1"
+      },
+      {
+        "img": "images/puppy2.png"
+      },
+      {
+        "img": "images/puppy3.png"
+      },
+      {
+        "img": "images/puppy4.png"
+      },
+      {
+        "img": "images/puppy5.png",
+        "codes": "puppies,puppies5"
+      }
+    ]
+  },
+  {
+    "name": "Life Pot",
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/lifepot.png",
+        "codes": "lifePot"
+      },
+      {
+        "img": "images/lifepotused.png",
+        "codes": "lifePot",
+        "secondary_codes": "used"
+      }
+    ]
+  },
+
+  {
+    "name": "Turbocharge",
+    "type": "toggle",
+    "img": "images/turbocharge.png",
+    "codes": "turbocharge"
+  },
+  {
+    "name": "Clinic Key",
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/clinickey.png",
+        "codes": "clinicKey,clinic"
+      },
+      {
+        "img": "images/clinickeyused.png",
+        "codes": "clinicKey,clinic",
+        "secondary_codes": "used"
+      }
+    ]
+  },
+  {
+    "name": "Arms Barrier",
+    "type": "toggle",
+    "img": "images/armsbarrier.png",
+    "codes": "armsBarrier"
+  },
+  {
+    "name": "Cure-All",
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/cureall.png",
+        "codes": "cureAll"
+      },
+      {
+        "img": "images/cureallused.png",
+        "codes": "cureAll",
+        "secondary_codes": "used"
+      }
+    ]
+  },
+  {
+    "name": "Booster",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/booster1.png",
+        "codes": "booster1,flight"
+      },
+      {
+        "img": "images/booster2.png",
+        "codes": "booster2"
+      }
+    ]
+  },
+  {
+    "name": "Curly's Air Tank",
+    "type": "toggle",
+    "img": "images/airtank.png",
+    "codes": "airtank,curlysairtank"
+  },
+  {
+    "name": "Tow Rope",
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/towrope.png",
+        "codes": "towRope"
+      },
+      {
+        "img": "images/towropecurly.png",
+        "codes": "towRope",
+        "secondary_codes": "used,curly"
+      }
+    ]
+  },
+  {
+    "name": "Alien Medal",
+    "type": "toggle",
+    "img": "images/alienmedal.png",
+    "codes": "alien,alienMedal"
+  },
+  {
+    "name": "Clay Figure Medal",
+    "type": "toggle",
+    "img": "images/claymedal.png",
+    "codes": "clay,clayMedal"
+  },
+  {
+    "name": "Medals",
+    "type": "composite_toggle",
+    "codes": "medals",
+    "item_left": "alien",
+    "item_right": "clay",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "images/medals.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "images/medalsalien.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "images/medalsclay.png"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "images/medals.png"
+      }
+    ]
+  },
+  {
+    "name": "Whimsical Star",
+    "type": "toggle",
+    "img": "images/whimsical.png",
+    "codes": "whimsy,whimsical,whimsicalStar"
+  },
+  {
+    "name": "Nikumaru Counter",
+    "type": "toggle",
+    "img": "images/nikumaru.png",
+    "codes": "nikumaru,nikumaruCounter,counter290"
+  },
+  {
+    "name": "Teleporter Room Key",
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/teleportkey.png",
+        "codes": "teleportKey"
+      },
+      {
+        "img": "images/teleportkeyused.png",
+        "codes": "teleportKey",
+        "secondary_codes": "used"
+      }
+    ]
+  },
+  {
+    "name": "Sue's Letter",
+    "type": "toggle",
+    "img": "images/suesletter.png",
+    "codes": "letter,suesLetter"
+  },
+  {
+    "name": "Mimiga Mask",
+    "type": "toggle",
+    "img": "images/mimigamask.png",
+    "codes": "mask,mimigaMask"
+  },
+  {
+    "name": "Broken Sprinkler",
+    "type": "toggle",
+    "img": "images/brokensprinkler.png",
+    "codes": "brokenSprinkler"
+  },
+  {
+    "name": "Sprinkler",
+    "type": "toggle",
+    "img": "images/sprinker.png",
+    "codes": "sprinkler"
+  },
+  {
+    "name": "Sprinklers",
+    "type": "composite_toggle",
+    "codes": "sprinklers",
+    "item_left": "brokenSprinkler",
+    "item_right": "sprinkler",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "images/sprinklers.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "images/sprinklersbroken.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "images/sprinklersnew.png"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "images/sprinkler.png"
+      }
+    ]
+  },
+  {
+    "name": "Controller",
+    "type": "toggle",
+    "img": "images/controller.png",
+    "codes": "controller"
+  },
+  {
+    "name": "Mushroom Badge",
+    "type": "toggle",
+    "img": "images/mushroombadge.png",
+    "codes": "mushroom,mushroomBadge"
+  },
+  {
+    "name": "Ma Pignon",
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/mapignon.png",
+        "codes": "maPignon"
+      },
+      {
+        "img": "images/mapignonfed.png",
+        "codes": "maPignon",
+        "secondary_codes": "used,fed"
+      }
+    ]
+  },
+  {
+    "name": "Mr Little",
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/mrlittle.png",
+        "codes": "mrLittle"
+      },
+      {
+        "img": "images/mrlittlehome.png",
+        "codes": "mrLittle",
+        "secondary_codes": "used,home,returned"
+      }
+    ]
+  },
+  {
+    "name": "Iron Bond",
+    "type": "toggle",
+    "img": "images/ironbond.png",
+    "codes": "ironbond"
+  },
+  {
+    "name": "Saved Sue",
+    "type": "toggle",
+    "img": "images/eventsue.png",
+    "codes": "eventSue"
+  },
+  {
+    "name": "Saved Kazuma",
+    "type": "toggle",
+    "img": "images/eventkazuma.png",
+    "codes": "eventKazuma"
+  },
+  {
+    "name": "Defeated Toroko+",
+    "type": "toggle",
+    "img": "images/eventtoroko.png",
+    "codes": "eventToroko"
+  },
+  {
+    "name": "Defeated Core",
+    "type": "toggle",
+    "img": "images/eventcore.png",
+    "codes": "eventCore"
+  },
+  {
+    "name": "Saved Curly",
+    "type": "toggle",
+    "img": "images/eventcurly.png",
+    "codes": "eventCurly"
+  }
+]

@@ -14,68 +14,54 @@
                         "item_margin": "4,5",
                         "rows": [
                             [
-                                "bowandarrows",
-                                "boomerangs",
-                                "hookshot",
-                                "bombs",
-                                "powder",
-                                "lift1",
-                                "owsword",
-                                "easternpalace"
+                                "arthursKey",
+                                "silverLocket",
+                                "puppy1",
+                                "cureAll",
+                                "booster1",
+                                "eventSue"
                             ],
                             [
-                                "firerod",
-                                "icerod",
-                                "bombos",
-                                "ether",
-                                "quake",
-                                "boots",
-                                "shield",
-                                "desertpalace"
+                                "santasKey",
+                                "idCard",
+                                "lifePot",
+                                "towRope",
+                                "mask",
+                                "eventKazuma"
                             ],
                             [
-                                "lamp",
-                                "hammer",
-                                "ocarina",
-                                "book",
-                                "pearl",
-                                "flippers",
-                                "armor",
-                                "towerofhera"
-                            ],
-                            [
-                                "bottle",
-                                "somaria",
-                                "byrna",
-                                "cape",
-                                "mirror",
+                                "rustyKey",
+                                "juice",
+                                "letter",
                                 "mushroom",
-                                "shovel",
-                                "aga"
+                                "airtank",
+                                "eventToroko"
                             ],
                             [
-                                "palaceofdarkness",
-                                "swamppalace",
-                                "skullwoods",
-                                "thievestown",
-                                "icepalace",
-                                "miserymire",
-                                "turtlerock",
-                                "gomode"
+                                "gumKey",
+                                "charcoal",
+                                "controller",
+                                "maPignon",
+                                "turbocharge",
+                                "eventCurly"
+                            ],
+                            [
+                                "clinicKey",
+                                "gumBase",
+                                "sprinklers",
+                                "ironBond",
+                                "armsBarrier",
+                                "eventCore"
+                            ],
+                            [
+                                "teleportKey",
+                                "bomb",
+                                "mrLittle",
+                                "nikumaru",
+                                "whimsicalStar",
+                                "lewds"
                             ]
                         ]
-                    },
-                    {
-                        "type": "container",
-                        "margin": "0,5,0,0",
-                        "content": {
-                            "type": "recentpins",
-                            "h_alignment": "stretch",
-                            "v_alignment": "center",
-                            "orientation": "vertical",
-                            "compact": true,
-                            "num_items": 2
-                        }
                     }
                 ]
             }
