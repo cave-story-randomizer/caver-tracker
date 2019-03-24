@@ -4,12 +4,12 @@
         "h_alignment": "center",
         "item_margin": "1,2",
         "rows": [
-            [ "bowandarrows", "boomerangs", "hookshot", "bombs", "powder", "mushroom", "easternpalace" ],
-            [ "firerod", "icerod", "bombos", "ether", "quake", "shovel", "desertpalace" ],
-            [ "lamp", "hammer", "ocarina", "net", "book", "pearl", "towerofhera" ],
-            [ "bottle", "somaria", "byrna", "cape", "mirror", "gomode", "aga" ],
-            [ "lift1", "boots", "flippers", "halfmagic", "owsword", "shield", "armor" ],
-            [ "palaceofdarkness", "swamppalace", "skullwoods", "thievestown", "icepalace", "miserymire", "turtlerock" ],
+            [ "arthursKey",  "locket",   "puppy1",     "cureAll",  "booster1",    "eventSue"    ],
+            [ "santasKey",   "idCard",   "lifePot",    "towRope",  "mask",        "eventKazuma" ],
+            [ "rustyKey",    "juice",    "letter",     "mushroom", "airtank",     "eventToroko" ],
+            [ "gumKey",      "charcoal", "controller", "maPignon", "turbocharge", "eventCurly"  ],
+            [ "clinicKey",   "gumBase",  "sprinklers", "ironBond", "armsBarrier", "eventCore"   ],
+            [ "teleportKey", "bomb",     "mrLittle",   "nikumaru", "whimsical",   "lewds"       ]
         ]
     },
     "tracker_capture_item": {
