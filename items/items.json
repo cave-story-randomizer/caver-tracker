@@ -219,11 +219,11 @@
     "stages": [
       {
         "img": "images/puppy0.png",
-        "img_mods": "@disabled"
+        "img_mods": "@disabled",
+        "codes": "puppy0"
       },
       {
-        "img": "images/puppy1.png",
-        "codes": "puppy1"
+        "img": "images/puppy1.png"
       },
       {
         "img": "images/puppy2.png"
@@ -320,18 +320,9 @@
   },
   {
     "name": "Tow Rope",
-    "type": "progressive_toggle",
-    "stages": [
-      {
-        "img": "images/towrope.png",
-        "codes": "towRope"
-      },
-      {
-        "img": "images/towropecurly.png",
-        "codes": "towRope",
-        "secondary_codes": "used,curly"
-      }
-    ]
+    "type": "toggle",
+    "img": "images/towrope.png",
+    "codes": "towRope"
   },
   {
     "name": "Alien Medal",
@@ -418,7 +409,7 @@
     "name": "Broken Sprinkler",
     "type": "toggle",
     "img": "images/brokensprinkler.png",
-    "codes": "brokenSprinkler"
+    "codes": "sprinklerB,brokenSprinkler"
   },
   {
     "name": "Sprinkler",
@@ -426,6 +417,7 @@
     "img": "images/sprinker.png",
     "codes": "sprinkler"
   },
+  /*
   {
     "name": "Sprinklers",
     "type": "composite_toggle",
@@ -456,6 +448,7 @@
       }
     ]
   },
+  */
   {
     "name": "Controller",
     "type": "toggle",

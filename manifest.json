@@ -5,10 +5,10 @@
   "package_version": "v0.8",
   "package_uid": "cavestory_tracker_duncathan",
   "author": "duncathan_salt",
-  "variants": {
+  "variants": {/*
     "standard": {
       "display_name": "Map and Items"
-    },
+    },*/
     "items_only": {
       "display_name": "Items Only"
     }
