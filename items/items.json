@@ -414,7 +414,7 @@
   {
     "name": "Sprinkler",
     "type": "toggle",
-    "img": "images/sprinker.png",
+    "img": "images/sprinkler.png",
     "codes": "sprinkler"
   },
   /*
