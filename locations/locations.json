@@ -17,8 +17,8 @@
             "map_locations": [
               {
                 "map": "mimigavillage",
-                "x": 0,
-                "y": 0
+                "x": 126,
+                "y": 96
               }
             ],
             "sections": [
@@ -28,7 +28,7 @@
               },
               {
                 "name": "Gunsmith Upgrade",
-                "access_rules": [ "polarstar,flight" ],
+                "access_rules": [ "polarstar,flight,eventCore" ],
                 "item_count": 1
               }
             ]
@@ -56,8 +56,8 @@
             "map_locations": [
               {
                 "map": "mimigavillage",
-                "x": 0,
-                "y": 0
+                "x": 720,
+                "y": 335
               }
             ],
             "sections": [
@@ -73,8 +73,8 @@
             "map_locations": [
               {
                 "map": "mimigavillage",
-                "x": 0,
-                "y": 0
+                "x": 14,
+                "y": 608
               }
             ],
             "sections": [
@@ -90,8 +90,8 @@
             "map_locations": [
               {
                 "map": "mimigavillage",
-                "x": 0,
-                "y": 0
+                "x": 780,
+                "y": 652
               }
             ],
             "sections": [
@@ -107,8 +107,8 @@
             "map_locations": [
               {
                 "map": "mimigavillage",
-                "x": 0,
-                "y": 0
+                "x": 686,
+                "y": 545
               }
             ],
             "sections": [
@@ -127,14 +127,14 @@
             "map_locations": [
               {
                 "map": "mimigavillage",
-                "x": 0,
-                "y": 0
+                "x": 895,
+                "y": 528
               }
             ],
             "sections": [
               {
                 "name": "Arthur's Grave",
-                "item_count": 1,
+                "item_count": 1
               },
               {
                 "name": "Mushroom Badge",
@@ -150,6 +150,26 @@
                 "name": "Mr Little",
                 "access_rules": [ "$canEnterPlantation,flight" ],
                 "hosted_item": "mrLittle"
+              }
+            ]
+          },
+          {
+            "name": "Arthur's House",
+            "short_name": "Arthur",
+            "access_rules": [ "$canEnterArthurs" ],
+
+            "map_locations": [
+              {
+                "map": "mimigavillage",
+                "x": 254,
+                "y": 849
+              }
+            ],
+            "sections": [
+              {
+                "name": "Professor Booster",
+                "access_rules": [ "eventCore" ],
+                "item_count": 1
               }
             ]
           }

@@ -1,7 +1,7 @@
 function canFightMaPignon()
-    return Tracker:ProviderCountForCode("polarStar") or Tracker:ProviderCountForCode("fireball") or
-           Tracker:ProviderCountForCode("bubbler") or Tracker:ProviderCountForCode("machineGun") or
-           Tracker:ProviderCountForCode("snake") or Tracker:ProviderCountForCode("nemesis")
+    return Tracker:ProviderCountForCode("polarStar") > 0 or Tracker:ProviderCountForCode("fireball") > 0 or
+           Tracker:ProviderCountForCode("bubbler") > 0 or Tracker:ProviderCountForCode("machineGun") > 0 or
+           Tracker:ProviderCountForCode("snake") > 0 or Tracker:ProviderCountForCode("nemesis") > 0
 end
 
 function canEnterArthurs()
