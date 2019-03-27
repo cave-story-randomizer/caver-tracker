@@ -148,7 +148,7 @@
               },
               {
                 "name": "Mr Little",
-                "access_rules": [ "$canEnterPlantation,flight" ],
+                "access_rules": [ "$canAccessPlantation,flight" ],
                 "hosted_item": "mrLittle"
               }
             ]
