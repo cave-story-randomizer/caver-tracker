@@ -1,7 +1,7 @@
 [
   {
     "name": "First Cave",
-    "color": "",
+    "color": "#52667C",
     "chest_unopened_img": "images/chest.png",
     "chest_opened_img": "images/chestopen.png",
 
@@ -39,7 +39,7 @@
   },
   {
     "name": "Mimiga Village",
-    "color": "",
+    "color": "#3163AD",
     "access_rules": [ "weaponSN" ],
     "chest_unopened_img": "images/chest.png",
     "chest_opened_img": "images/chestopen.png",
@@ -179,7 +179,6 @@
   },
   {
     "name": "Egg Corridor",
-    "color": "",
     "chest_unopened_img": "images/chest.png",
     "chest_opened_img": "images/chestopen.png",
     "access_rules": [ "$canEnterArthurs" ],
@@ -188,6 +187,7 @@
       {
         "name": "Egg Corridor",
         "group": "Egg Corridor",
+        "color": "#DEEAE1",
 
         "children": [
           {
@@ -196,8 +196,8 @@
             "map_locations": [
               {
                 "map": "egg1",
-                "x": 0,
-                "y": 0
+                "x": 230,
+                "y": 183
               }
             ],
             "sections": [
@@ -213,8 +213,8 @@
             "map_locations": [
               {
                 "map": "egg1",
-                "x": 0,
-                "y": 0
+                "x": 1821,
+                "y": 32
               }
             ],
             "sections": [
@@ -230,8 +230,8 @@
             "map_locations": [
               {
                 "map": "egg1",
-                "x": 0,
-                "y": 0
+                "x": 460,
+                "y": 398
               }
             ],
             "sections": [
@@ -247,8 +247,8 @@
             "map_locations": [
               {
                 "map": "egg1",
-                "x": 0,
-                "y": 0
+                "x": 1087,
+                "y": 352
               }
             ],
             "sections": [
@@ -259,13 +259,13 @@
             ]
           },
           {
-            "name": "Saved Sue",
-            "short_name": "Saved Sue",
+            "name": "Egg no. 0",
+            "short_name": "Egg no. 0",
             "map_locations": [
               {
                 "map": "egg1",
-                "x": 0,
-                "y": 0
+                "x": 2223,
+                "y": 368
               }
             ],
             "sections": [
@@ -281,6 +281,7 @@
       {
         "name": "Egg Corridor?",
         "group": "Egg Corridor",
+        "color": "#798E84",
         "access_rules": [ "eventCore", "eventKazuma" ],
 
         "children": [
@@ -290,8 +291,8 @@
             "map_locations": [
               {
                 "map": "egg2",
-                "x": 0,
-                "y": 0
+                "x": 1376,
+                "y": 184
               }
             ],
             "sections": [
@@ -308,8 +309,13 @@
             "map_locations": [
               {
                 "map": "egg2",
-                "x": 0,
-                "y": 0
+                "x": 1015,
+                "y": 303
+              },
+              {
+                "map": "egg2",
+                "x": 1192,
+                "y": 334
               }
             ],
             "sections": [
@@ -325,6 +331,7 @@
       {
         "name": "Outer Wall",
         "group": "Egg Corridor",
+        "color": "#5365A0",
         "access_rules": [ "$canAccessPlantation" ],
 
         "children": [
@@ -334,8 +341,8 @@
             "map_locations": [
               {
                 "map": "outerwall",
-                "x": 0,
-                "y": 0
+                "x": 127,
+                "y": 88
               }
             ],
             "sections": [
@@ -351,8 +358,8 @@
             "map_locations": [
               {
                 "map": "outerwall",
-                "x": 0,
-                "y": 0
+                "x": 30,
+                "y": 920
               }
             ],
             "sections": [
@@ -369,7 +376,7 @@
   },
   {
     "name": "Grasstown",
-    "color": "",
+    "color": "#2D733E",
     "chest_unopened_img": "images/chest.png",
     "chest_opened_img": "images/chestopen.png",
 
@@ -386,8 +393,8 @@
             "map_locations": [
               {
                 "map": "grasstown",
-                "x": 0,
-                "y": 0
+                "x": 863,
+                "y": 224
               }
             ],
             "sections": [
@@ -403,8 +410,8 @@
             "map_locations": [
               {
                 "map": "grasstown",
-                "x": 0,
-                "y": 0
+                "x": 990,
+                "y": 15
               }
             ],
             "sections": [
@@ -421,8 +428,8 @@
             "map_locations": [
               {
                 "map": "grasstown",
-                "x": 0,
-                "y": 0
+                "x": 62,
+                "y": 193
               }
             ],
             "sections": [
@@ -444,8 +451,8 @@
             "map_locations": [
               {
                 "map": "grasstown",
-                "x": 0,
-                "y": 0
+                "x": 1902,
+                "y": 272
               }
             ],
             "sections": [
@@ -462,8 +469,8 @@
             "map_locations": [
               {
                 "map": "grasstown",
-                "x": 0,
-                "y": 0
+                "x": 863,
+                "y": 32
               }
             ],
             "sections": [
@@ -487,8 +494,8 @@
             "map_locations": [
               {
                 "map": "grasstown",
-                "x": 0,
-                "y": 0
+                "x": 1325,
+                "y": 605
               }
             ],
             "sections": [
@@ -509,13 +516,13 @@
             "map_locations": [
               {
                 "map": "grasstown",
-                "x": 0,
-                "y": 0
+                "x": 1261,
+                "y": 605
               },
               {
                 "map": "plantation",
-                "x": 0,
-                "y": 0
+                "x": 133,
+                "y": 783
               }
             ],
             "sections": [
@@ -532,8 +539,8 @@
             "map_locations": [
               {
                 "map": "grasstown",
-                "x": 0,
-                "y": 0
+                "x": 1519,
+                "y": 623
               }
             ],
             "sections": [
@@ -549,8 +556,8 @@
             "map_locations": [
               {
                 "map": "grasstown",
-                "x": 0,
-                "y": 0
+                "x": 1270,
+                "y": 453
               }
             ],
             "sections": [
@@ -571,8 +578,8 @@
             "map_locations": [
               {
                 "map": "grasstown",
-                "x": 0,
-                "y": 0
+                "x": 2160,
+                "y": 447
               }
             ],
             "sections": [
@@ -589,8 +596,8 @@
             "map_locations": [
               {
                 "map": "grasstown",
-                "x": 0,
-                "y": 0
+                "x": 530,
+                "y": 623
               }
             ],
             "sections": [
@@ -607,7 +614,7 @@
   },
   {
     "name": "Sand Zone",
-    "color": "",
+    "color": "#BCAF7A",
     "chest_unopened_img": "images/chest.png",
     "chest_opened_img": "images/chestopen.png",
     "access_rules": [ "$canEnterArthurs" ],
@@ -625,8 +632,8 @@
             "map_locations": [
               {
                 "map": "sandzone",
-                "x": 0,
-                "y": 0
+                "x": 46,
+                "y": 191
               }
             ],
             "sections": [
@@ -651,8 +658,8 @@
             "map_locations": [
               {
                 "map": "sandzone",
-                "x": 0,
-                "y": 0
+                "x": 1183,
+                "y": 64
               }
             ],
             "sections": [
@@ -676,8 +683,13 @@
             "map_locations": [
               {
                 "map": "sandzone",
-                "x": 0,
-                "y": 0
+                "x": 1589,
+                "y": 382
+              },
+              {
+                "map": "sandzone",
+                "x": 894,
+                "y": 207
               }
             ],
             "sections": [
@@ -693,8 +705,8 @@
             "map_locations": [
               {
                 "map": "sandzone",
-                "x": 0,
-                "y": 0
+                "x": 1167,
+                "y": 433
               }
             ],
             "sections": [
@@ -710,8 +722,8 @@
             "map_locations": [
               {
                 "map": "sandzone",
-                "x": 0,
-                "y": 0
+                "x": 1916,
+                "y": 747
               }
             ],
             "sections": [
@@ -727,8 +739,8 @@
             "map_locations": [
               {
                 "map": "sandzone",
-                "x": 0,
-                "y": 0
+                "x": 2271,
+                "y": 512
               }
             ],
             "sections": [
@@ -744,8 +756,8 @@
             "map_locations": [
               {
                 "map": "sandzone",
-                "x": 0,
-                "y": 0
+                "x": 558,
+                "y": 417
               }
             ],
             "sections": [
@@ -763,8 +775,8 @@
             "map_locations": [
               {
                 "map": "sandzone",
-                "x": 0,
-                "y": 0
+                "x": 2432,
+                "y": 576
               }
             ],
             "sections": [
@@ -784,7 +796,7 @@
   },
   {
     "name": "Labyrinth",
-    "color": "",
+    "color": "#6D5935",
     "chest_unopened_img": "images/chest.png",
     "chest_opened_img": "images/chestopen.png",
     "access_rules": [ "$canEnterArthurs" ],
@@ -801,8 +813,8 @@
             "map_locations": [
               {
                 "map": "labyrintheast",
-                "x": 0,
-                "y": 0
+                "x": 151,
+                "y": 302
               }
             ],
             "sections": [
@@ -826,8 +838,8 @@
             "map_locations": [
               {
                 "map": "labyrinthwest",
-                "x": 0,
-                "y": 0
+                "x": 48,
+                "y": 256
               }
             ],
             "sections": [
@@ -843,8 +855,8 @@
             "map_locations": [
               {
                 "map": "labyrinthwest",
-                "x": 0,
-                "y": 0
+                "x": 527,
+                "y": 145
               }
             ],
             "sections": [
@@ -871,13 +883,13 @@
             "map_locations": [
               {
                 "map": "labyrinthwest",
-                "x": 0,
-                "y": 0
+                "x": 1343,
+                "y": 242
               },
               {
                 "map": "labyrinthwest",
-                "x": 0,
-                "y": 0
+                "x": 1453,
+                "y": 195
               }
             ],
             "sections": [
@@ -898,14 +910,15 @@
             "map_locations": [
               {
                 "map": "labyrinthwest",
-                "x": 0,
-                "y": 0
+                "x": 1055,
+                "y": 65
               }
             ],
             "sections": [
               {
                 "name": "Ghost in the Clinic",
-                "access_rules": [ "clinicKey,weaponBoss" ]
+                "access_rules": [ "clinicKey,weaponBoss" ],
+                "item_count": 1
               }
             ]
           }
@@ -923,8 +936,8 @@
             "map_locations": [
               {
                 "map": "labyrintheast",
-                "x": 0,
-                "y": 0
+                "x": 447,
+                "y": 127
               }
             ],
             "sections": [
@@ -938,12 +951,23 @@
           {
             "name": "Core",
             "short_name": "Core",
+            "color": "#7B6A83",
             "access_rules": [ "cureAll,weaponBoss" ],
             "map_locations": [
               {
                 "map": "labyrintheast",
-                "x": 0,
-                "y": 0
+                "x": 1774,
+                "y": 400
+              },
+              {
+                "map": "labyrintheast",
+                "x": 1519,
+                "y": 288
+              },
+              {
+                "map": "labyrintheast",
+                "x": 1822,
+                "y": 226
               }
             ],
             "sections": [
@@ -965,12 +989,13 @@
           {
             "name": "Waterway",
             "short_name": "Waterway",
+            "color": "#316666",
             "access_rules": [ "airTank" ],
             "map_locations": [
               {
                 "map": "labyrintheast",
-                "x": 0,
-                "y": 0
+                "x": 448,
+                "y": 369
               }
             ],
             "sections": [
@@ -992,7 +1017,7 @@
   },
   {
     "name": "Plantation",
-    "color": "",
+    "color": "#2D3A0C",
     "chest_unopened_img": "images/chest.png",
     "chest_opened_img": "images/chestopen.png",
     "access_rules": [ "$canAccessPlantation" ],
@@ -1009,8 +1034,8 @@
             "map_locations": [
               {
                 "map": "plantation",
-                "x": 0,
-                "y": 0
+                "x": 334,
+                "y": 1663
               }
             ],
             "sections": [
@@ -1026,13 +1051,13 @@
             "map_locations": [
               {
                 "map": "plantation",
-                "x": 0,
-                "y": 0
+                "x": 13,
+                "y": 1647
               },
               {
                 "map": "plantation",
-                "x": 0,
-                "y": 0
+                "x": 1582,
+                "y": 703
               }
             ],
             "sections": [
@@ -1049,8 +1074,8 @@
             "map_locations": [
               {
                 "map": "plantation",
-                "x": 0,
-                "y": 0
+                "x": 1150,
+                "y": 1343
               }
             ],
             "sections": [
@@ -1067,8 +1092,8 @@
             "map_locations": [
               {
                 "map": "plantation",
-                "x": 0,
-                "y": 0
+                "x": 235,
+                "y": 1103
               }
             ],
             "sections": [
@@ -1085,8 +1110,8 @@
             "map_locations": [
               {
                 "map": "plantation",
-                "x": 0,
-                "y": 0
+                "x": 366,
+                "y": 1312
               }
             ],
             "sections": [
@@ -1103,13 +1128,13 @@
             "map_locations": [
               {
                 "map": "plantation",
-                "x": 0,
-                "y": 0
+                "x": 1888,
+                "y": 1327
               },
               {
                 "map": "outerwall",
-                "x": 0,
-                "y": 0
+                "x": 511,
+                "y": 23
               }
             ],
             "sections": [
@@ -1126,8 +1151,8 @@
             "map_locations": [
               {
                 "map": "plantation",
-                "x": 0,
-                "y": 0
+                "x": 284,
+                "y": 529
               }
             ],
             "sections": [
@@ -1144,8 +1169,8 @@
             "map_locations": [
               {
                 "map": "plantation",
-                "x": 0,
-                "y": 0
+                "x": 1757,
+                "y": 1663
               }
             ],
             "sections": [
@@ -1162,8 +1187,8 @@
             "map_locations": [
               {
                 "map": "plantation",
-                "x": 0,
-                "y": 0
+                "x": 1120,
+                "y": 704
               }
             ],
             "sections": [
@@ -1177,11 +1202,12 @@
           {
             "name": "Last Cave (Hidden)",
             "short_name": "Last Cave",
+            "color": "#FF0000",
             "map_locations": [
               {
                 "map": "plantation",
-                "x": 0,
-                "y": 0
+                "x": 1274,
+                "y": 144
               }
             ],
             "sections": [
