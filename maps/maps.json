@@ -1,10 +1,38 @@
 ﻿[
   {
-    "name": "lightworld",
-    "img": "images/lttp_lightworld.png"
+    "name": "mimigavillage",
+    "img": "images/maps/mimigavillage.png"
   },
   {
-    "name": "darkworld",
-    "img": "images/lttp_darkworld.png"
+    "name": "egg1",
+    "img": "images/maps/egg1.png"
+  },
+  {
+    "name": "egg2",
+    "img": "images/maps/egg2.png"
+  },
+  {
+    "name": "outerwall",
+    "img": "images/maps/outerwall.png"
+  },
+  {
+    "name": "grasstownwest",
+    "img": "images/maps/grasstown.png"
+  },
+  {
+    "name": "sandzone",
+    "img": "images/maps/sandzone.png"
+  },
+  {
+    "name": "labyrinthwest",
+    "img": "images/maps/labyrinthwest.png"
+  },
+  {
+    "name": "labyrintheast",
+    "img": "images/maps/labyrintheast.png"
+  },
+  {
+    "name": "plantation",
+    "img": "images/maps/plantation.png"
   }
 ]

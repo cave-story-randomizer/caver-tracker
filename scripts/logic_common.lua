@@ -1,36 +1,21 @@
-function canActivateTablets()
-    if Tracker:ProviderCountForCode("swordless") > 0 then
-        return Tracker:ProviderCountForCode("hammer")
-    else
-        return Tracker:ProviderCountForCode("sword2")
+function canFightMaPignon()
+    return Tracker:ProviderCountForCode("polarStar") or Tracker:ProviderCountForCode("fireball") or
+           Tracker:ProviderCountForCode("bubbler") or Tracker:ProviderCountForCode("machineGun") or
+           Tracker:ProviderCountForCode("snake") or Tracker:ProviderCountForCode("nemesis")
+end
+
+function canEnterArthurs()
+    if Tracker:ProviderCountForCode("weaponSN") > 0 and Tracker:ProviderCountForCode("arthursKey") > 0 then
+       return 1 else return 0 
     end
 end
 
-function canUseMedallions()
-    if Tracker:ProviderCountForCode("swordless") > 0 then
-        return 1
-    else
-        return Tracker:ProviderCountForCode("sword")
-    end
-end
-
-function canRemoveCurtains()
-    if Tracker:ProviderCountForCode("swordless") > 0 then
-        return 1
-    else
-        return Tracker:ProviderCountForCode("sword")
-    end
-end
-
-function canClearAgaTowerBarrier()
-    -- With cape, we can always get through
-    if Tracker:ProviderCountForCode("cape") > 0 then
+function canAccessPlantation()
+    if Tracker:ProviderCountForCode("eventKazuma") > 0 then
         return 1
     end
-    -- Otherwise we need master sword or a hammer depending on the mode
-    if Tracker:ProviderCountForCode("swordless") > 0 then
-        return Tracker:ProviderCountForCode("hammer")
-    else
-        return Tracker:ProviderCountForCode("sword2")
-    end    
+    if Tracker:ProviderCountForCode("teleportKey") and canEnterArthurs() then
+        return 1
+    end
+    return 0
 end
