@@ -14,7 +14,7 @@ function canAccessPlantation()
     if Tracker:ProviderCountForCode("eventKazuma") > 0 then
         return 1
     end
-    if Tracker:ProviderCountForCode("teleportKey") and canEnterArthurs() then
+    if Tracker:ProviderCountForCode("teleportKey") > 0 and canEnterArthurs() then
         return 1
     end
     return 0

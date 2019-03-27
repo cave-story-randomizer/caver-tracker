@@ -149,7 +149,6 @@
               {
                 "name": "Mr Little",
                 "access_rules": [ "$canEnterPlantation,flight" ],
-                "item_count": 1,
                 "hosted_item": "mrLittle"
               }
             ]
@@ -253,7 +252,6 @@
               {
                 "name": "Saved Sue",
                 "access_rules": [ "idCard,weaponBoss" ],
-                "item_count": 1,
                 "hosted_item": "eventSue"
               }
             ]
@@ -504,8 +502,7 @@
               {
                 "name": "Saved Kazuma",
                 "access_rules": [ "bomb" ],
-                "hosted_item": "eventKazuma",
-                "item_count": 1
+                "hosted_item": "eventKazuma"
               }
             ]
           },
@@ -753,7 +750,6 @@
             "sections": [
               {
                 "name": "Defeated Toroko+",
-                "item_count": 1,
                 "hosted_item": "eventToroko"
               },
               {
@@ -942,8 +938,7 @@
               },
               {
                 "name": "Defeated Core",
-                "hosted_item": "eventCore",
-                "item_count": 1
+                "hosted_item": "eventCore"
               }
             ]
           },
@@ -962,8 +957,7 @@
               {
                 "name": "Saved Curly",
                 "access_rules": [ "eventCore,towRope" ],
-                "hosted_item": "eventCurly",
-                "item_count": 1
+                "hosted_item": "eventCurly"
               },
               {
                 "name": "Ironhead",

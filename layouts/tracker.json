@@ -44,23 +44,21 @@
     },
     "tracker_default": {
         "type": "container",
-        "width": 416,
-        //"height": 250,
         "background": "#212121",
+        "dropshadow": true,
+        "margin": "5",
         "content": {
-            "dropshadow": true,
-            "margin": "5",
             "type": "dock",
             "content": [
                 {
                     "type": "dock",
                     "dock": "left",
-                    "v_alignment": "stretch",
                     "content": [
                         {
                             "type": "group",
                             "header": "Items",
                             "dock": "top",
+                            "width": 416,
                             "content": {
                                 "type": "layout",
                                 "key": "full_item_grid"
@@ -100,23 +98,13 @@
                                 "type": "dock",
                                 "content": [
                                     {
-                                        "type": "array",
-                                        "dock": "left",
-                                        "orientation": "vertical",
-                                        "content": [
-                                            {
-                                                "type": "map",
-                                                "maps": [ "egg1" ]
-                                            },
-                                            {
-                                                "type": "map",
-                                                "maps": [ "egg2" ]
-                                            }
-                                        ]
+                                        "type": "map",
+                                        "dock": "top",
+                                        "maps": [ "egg1" ]
                                     },
                                     {
                                         "type": "map",
-                                        "maps": [ "outerwall" ]
+                                        "maps": [ "egg2" ]
                                     }
                                 ]
                             }
@@ -165,7 +153,8 @@
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "plantation"
+                                    "plantation",
+                                    "outerwall"
                                 ]
                             }
                         }
