@@ -132,6 +132,14 @@
                                     "outerwall"
                                 ]
                             }
+                        },
+                        {
+                            "title": "Settings",
+                            "icon": "images/settings/icon.png",
+                            "content": {
+                                "type": "layout",
+                                "key": "settings"
+                            }
                         }
                     ]
                 }

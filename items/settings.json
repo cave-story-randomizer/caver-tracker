@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Spawn Point",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/spawnstartpoint.png",
+        "codes": "sSpawnStartPoint"
+      },
+      {
+        "img": "images/settings/spawnarthurshouse.png",
+        "codes": "sSpawnArthursHouse"
+      },
+      {
+        "img": "images/settings/spawncamp.png",
+        "codes": "sSpawnCamp"
+      }
+    ]
+  },
+  {
+    "name": "Puppysanity",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/settings/puppysanity.png",
+    "codes": "sPuppy"
+  },
+  {
+    "name": "Sequence Breaks",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/settings/sequencebreaks.png",
+    "codes": "sSequence"
+  },
+  {
+    "name": "Cthulhu's Abode Skip",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/settings/cthulhu.png",
+    "codes": "sCthulhu"
+  },
+  {
+    "name": "Chaco Skip",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/settings/chaco.png",
+    "codes": "sChaco"
+  },
+  {
+    "name": "Chaco Skip No Weapon",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/settings/chacopax.png",
+    "codes": "sChacoPax"
+  },
+  {
+    "name": "Flightless Grasstown Hut",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/settings/hut.png",
+    "codes": "sHut"
+  },
+  {
+    "name": "Flightless Camp Chest",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/settings/camp.png",
+    "codes": "sCamp"
+  },
+  {
+    "name": "Sisters Skip",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/settings/sisters.png",
+    "codes": "sSisters"
+  },
+  {
+    "name": "Flightless Plantation Chest",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/settings/plantation.png",
+    "codes": "sPlantation"
+  },
+  {
+    "name": "Rocket Skip",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/settings/rocket.png",
+    "codes": "sRocket"
+  }
+]

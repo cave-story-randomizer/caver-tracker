@@ -1,0 +1,70 @@
+{
+  "settings": {
+    "type": "array",
+    "orientation": "vertical",
+    "h_alignment": "center",
+    "max_width": 480,
+    "content": [
+      {
+        "type": "image",
+        "image": "images/settings/header.png",
+        "margin": "0,5"
+      },
+      {
+        "type": "item",
+        "item": "sSpawnStartPoint",
+        "margin": "0,5"
+      },
+      {
+        "type": "item",
+        "item": "sPuppy",
+        "margin": "0,5"
+      },
+      {
+        "type": "item",
+        "item": "sSequence",
+        "margin": "0,5"
+      },
+      {
+        "type": "item",
+        "item": "sCthulhu",
+        "margin": "0,5"
+      },
+      {
+        "type": "item",
+        "item": "sChaco",
+        "margin": "0,5"
+      },
+      {
+        "type": "item",
+        "item": "sChacoPax",
+        "margin": "0,5"
+      },
+      {
+        "type": "item",
+        "item": "sHut",
+        "margin": "0,5"
+      },
+      {
+        "type": "item",
+        "item": "sCamp",
+        "margin": "0,5"
+      },
+      {
+        "type": "item",
+        "item": "sSisters",
+        "margin": "0,5"
+      },
+      {
+        "type": "item",
+        "item": "sPlantation",
+        "margin": "0,5"
+      },
+      {
+        "type": "item",
+        "item": "sRocket",
+        "margin": "0,5"
+      }
+    ]
+  }
+}
