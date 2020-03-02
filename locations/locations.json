@@ -2,6 +2,7 @@
   {
     "name": "First Cave",
     "color": "#52667C",
+    "access_rules": [ "sSpawnStartPoint", "flight,weaponSN,@Mimiga Village" ],
     "chest_unopened_img": "images/chest.png",
     "chest_opened_img": "images/chestopen.png",
 
@@ -40,7 +41,7 @@
   {
     "name": "Mimiga Village",
     "color": "#3163AD",
-    "access_rules": [ "weaponSN" ],
+    "access_rules": [ "sSpawnStartPoint,weaponSN", "$canEnterArthurs,arthursKey" ],
     "chest_unopened_img": "images/chest.png",
     "chest_opened_img": "images/chestopen.png",
 
@@ -147,6 +148,11 @@
                 "item_count": 1
               },
               {
+                "name": "Ma Pignon (Boss)",
+                "access_rules": [ "flight,$canFightMaPignon" ],
+                "hosted_item": "bossMaPignon"
+              },
+              {
                 "name": "Mr Little",
                 "access_rules": [ "$canAccessPlantation,flight" ],
                 "hosted_item": "mrLittle"
@@ -220,6 +226,7 @@
             "sections": [
               {
                 "name": "Cthulhu's Abode",
+                "access_rules": [ "[weaponSN]", "flight", "sSequence,sCthulhu"],
                 "item_count": 1
               }
             ]
@@ -261,6 +268,7 @@
           {
             "name": "Egg no. 0",
             "short_name": "Egg no. 0",
+            "access_rules": [ "idCard,weaponBoss" ],
             "map_locations": [
               {
                 "map": "egg1",
@@ -271,8 +279,11 @@
             "sections": [
               {
                 "name": "Saved Sue",
-                "access_rules": [ "idCard,weaponBoss" ],
                 "hosted_item": "eventSue"
+              },
+              {
+                "name": "Igor",
+                "hosted_item": "bossIgor"
               }
             ]
           }
@@ -298,13 +309,13 @@
             "sections": [
               {
                 "name": "Dragon Chest",
-                "access_rules": [ "[weaponBoss] "],
+                "access_rules": [ "bossCore", "weaponSN" ],
                 "item_count": 1
               }
             ]
           },
           {
-            "name": "Sisters Boss",
+            "name": "Egg Observation Room?",
             "short_name": "Sisters",
             "map_locations": [
               {
@@ -320,9 +331,14 @@
             ],
             "sections": [
               {
-                "name": "Sisters Boss",
-                "access_rules": [ "weaponBoss", "[weaponBoss],flight" ],
+                "name": "Sisters Chest",
+                "access_rules": [ "weaponBoss", "[weaponBoss],flight", "sSequence,sSisters,flight" ],
                 "item_count": 1
+              },
+              {
+                "name": "Sisters Boss",
+                "access_rules": [ "weaponBoss" ],
+                "hosted_item": "bossSisters"
               }
             ]
           }
@@ -485,7 +501,7 @@
       {
         "name": "Grasstown East",
         "group": "Grasstown",
-        "access_rules": [ "juice", "flight", "$canAccessPlantation,bomb" ],
+        "access_rules": [ "[juice]", "flight", "$canAccessPlantation,bomb", "sSequence,sChaco,[weapon]", "sSequence,sChacoPax" ],
 
         "children": [
           {
@@ -563,7 +579,7 @@
             "sections": [
               {
                 "name": "Grasstown Hut",
-                "access_rules": [ "flight", "rustyKey,weaponBoss" ],
+                "access_rules": [ "[flight]", "rustyKey,weaponBoss", "sSequence,sHut" ],
                 "item_count": 1
               },
               {
@@ -575,6 +591,7 @@
           {
             "name": "Gum",
             "short_name": "Gum",
+            "access_rules": [ "gumKey,flight,weaponBoss", "gumKey,rustyKey,weaponBoss" ],
             "map_locations": [
               {
                 "map": "grasstown",
@@ -585,14 +602,18 @@
             "sections": [
               {
                 "name": "Geghrooakk!",
-                "access_rules": [ "gumKey,flight,weaponBoss", "gumKey,rustyKey,weaponBoss" ],
                 "item_count": 1
+              },
+              {
+                "name": "Balfrog",
+                "hosted_item": "bossBalfrog"
               }
             ]
           },
           {
             "name": "MALCO",
             "short_name": "MALCO",
+            "access_rules": [ "rustyKey,weaponBoss" ],
             "map_locations": [
               {
                 "map": "grasstown",
@@ -603,8 +624,12 @@
             "sections": [
               {
                 "name": "I'D MAKE YOU SOME TEA, BUT...",
-                "access_rules": [ "rustyKey,weaponBoss,juice,charcoal,gumBase" ],
+                "access_rules": [ "juice,charcoal,gumBase" ],
                 "item_count": 1
+              },
+              {
+                "name": "Balrog 2",
+                "hosted_item": "bossBalrog2"
               }
             ]
           }
@@ -617,12 +642,12 @@
     "color": "#BCAF7A",
     "chest_unopened_img": "images/chest.png",
     "chest_opened_img": "images/chestopen.png",
-    "access_rules": [ "$canEnterArthurs" ],
 
     "children": [
       {
         "name": "Upper Sand Zone",
         "group": "Sand Zone",
+        "access_rules": [ "$canEnterArthurs,weaponSN" ],
 
         "children": [
           {
@@ -638,7 +663,7 @@
             ],
             "sections": [
               {
-                "name": "Curly Boss",
+                "name": "Curly Trade",
                 "access_rules": [ "polarStar" ],
                 "item_count": 1
               },
@@ -649,6 +674,10 @@
               {
                 "name": "Puppy (Curly)",
                 "item_count": 1
+              },
+              {
+                "name": "Curly Boss",
+                "hosted_item": "bossCurly"
               }
             ]
           },
@@ -674,7 +703,7 @@
       {
         "name": "Lower Sand Zone",
         "group": "Sand Zone",
-        "access_rules": [ "weaponBoss" ],
+        "access_rules": [ "$canEnterArthurs,weaponBoss", "sSpawnCamp" ],
 
         "children": [
           {
@@ -781,7 +810,7 @@
             ],
             "sections": [
               {
-                "name": "Defeated Toroko+",
+                "name": "Toroko+",
                 "hosted_item": "bossToroko"
               },
               {
@@ -799,12 +828,12 @@
     "color": "#6D5935",
     "chest_unopened_img": "images/chest.png",
     "chest_opened_img": "images/chestopen.png",
-    "access_rules": [ "$canEnterArthurs" ],
 
     "children": [
       {
         "name": "Labyrinth B",
         "group": "Labyrinth",
+        "access_rules": [ "$canEnterArthurs" ],
         
         "children": [
           {
@@ -829,7 +858,7 @@
       {
         "name": "West Labyrinth",
         "group": "Labyrinth",
-        "access_rules": [ "bossToroko,weaponBoss", "flight,weaponBoss" ],
+        "access_rules": [ "bossToroko,weaponBoss", "flight,weaponBoss,$canEnterArthurs", "sSpawnCamp" ],
 
         "children": [
           {
@@ -899,7 +928,7 @@
               },
               {
                 "name": "Camp Chest",
-                "access_rules": [ "[flight]" ],
+                "access_rules": [ "[flight]", "sSequence,sCamp", "sSpawnCamp" ],
                 "item_count": 1
               }
             ]
@@ -927,7 +956,7 @@
       {
         "name": "East Labyrinth",
         "group": "Labyrinth",
-        "access_rules": [ "bossToroko,flight", "bossToroko,weaponBoss,cureAll", "flight,weaponBoss,cureAll" ],
+        "access_rules": [ "@West Labyrinth,flight", "@West Labyrinth,weaponBoss,cureAll" ],
 
         "children": [
           {
@@ -981,7 +1010,7 @@
                 "item_count": 1
               },
               {
-                "name": "Defeated Core",
+                "name": "Core",
                 "hosted_item": "bossCore"
               }
             ]
@@ -1005,9 +1034,14 @@
                 "hosted_item": "eventCurly"
               },
               {
-                "name": "Ironhead",
+                "name": "Ironhead Item",
                 "access_rules": [ "weaponBoss" ],
                 "item_count": 1
+              },
+              {
+                "name": "Ironhead Boss",
+                "access_rules": [ "weaponBoss" ],
+                "hosted_item": "bossIronhead"
               }
             ]
           }
@@ -1158,13 +1192,13 @@
             "sections": [
               {
                 "name": "Platforming Spot",
-                "access_rules": ["[flight]"],
+                "access_rules": [ "[flight]", "sSequence,sPlantation" ],
                 "item_count": 1
               }
             ]
           },
           {
-            "name": "Amensiac Curly",
+            "name": "Amnesiac Curly",
             "short_name": "Cent Curly",
             "map_locations": [
               {
@@ -1203,6 +1237,7 @@
             "name": "Last Cave (Hidden)",
             "short_name": "Last Cave",
             "color": "#FF0000",
+            "access_rules": [ "letter,booster2,controller,sprinkler,weaponBoss", "sSequence,sRocket,booster2,machineGun" ],
             "map_locations": [
               {
                 "map": "plantation",
@@ -1212,9 +1247,12 @@
             ],
             "sections": [
               {
-                "name": "Red Demon",
-                "access_rules": [ "letter,booster2,controller,sprinkler,weaponBoss" ],
+                "name": "Red Demon Item",
                 "item_count": 1
+              },
+              {
+                "name": "Red Demon Boss",
+                "hosted_item": "bossRedDemon"
               }
             ]
           }

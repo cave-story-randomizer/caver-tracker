@@ -5,6 +5,8 @@ function canFightMaPignon()
 end
 
 function canEnterArthurs()
+    if Tracker:ProviderCountForCode("sSpawnArthursHouse") > 0 then return 1 end
+    if Tracker:ProviderCountForCode("sSpawnCamp") > 0 and Tracker:ProviderCountForCode("weaponBoss") > 0 then return 1 end
     if Tracker:ProviderCountForCode("weaponSN") > 0 and Tracker:ProviderCountForCode("arthursKey") > 0 then
        return 1 else return 0 
     end

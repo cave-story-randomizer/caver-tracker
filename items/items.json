@@ -5,7 +5,7 @@
     "stages": [
       {
         "img": "images/weapons/polarstar.png",
-        "codes": "polarStar,weaponBoss,weaponSN"
+        "codes": "polarStar,weaponBoss,weaponSN,weapon"
       },
       {
         "img": "images/weapons/spur.png",
@@ -19,7 +19,7 @@
     "stages": [
       {
         "img": "images/weapons/missilelauncher.png",
-        "codes": "missiles,weaponSN"
+        "codes": "missiles,weaponSN,weapon"
       },
       {
         "img": "images/weapons/supermissilelauncher.png",
@@ -31,37 +31,37 @@
     "name": "Fireball",
     "type": "toggle",
     "img": "images/weapons/fireball.png",
-    "codes": "fireball,weaponBoss"
+    "codes": "fireball,weaponBoss,weapon"
   },
   {
     "name": "Bubbler",
     "type": "toggle",
     "img": "images/weapons/bubbler.png",
-    "codes": "bubbler,weaponBoss"
+    "codes": "bubbler,weaponBoss,weapon"
   },
   {
     "name": "Machine Gun",
     "type": "toggle",
     "img": "images/weapons/machinegun.png",
-    "codes": "machineGun,weaponBoss,weaponSN,flight"
+    "codes": "machineGun,weaponBoss,weaponSN,flight,weapon"
   },
   {
     "name": "Blade",
     "type": "toggle",
     "img": "images/weapons/blade.png",
-    "codes": "blade,weaponBoss,weaponSN"
+    "codes": "blade,weaponBoss,weaponSN,weapon"
   },
   {
     "name": "Snake",
     "type": "toggle",
     "img": "images/weapons/snake.png",
-    "codes": "snake,weaponBoss"
+    "codes": "snake,weaponBoss,weapon"
   },
   {
     "name": "Nemesis",
     "type": "toggle",
     "img": "images/weapons/nemesis.png",
-    "codes": "nemesis,weaponBoss,weaponSN"
+    "codes": "nemesis,weaponBoss,weaponSN,weapon"
   },
   {
     "name": "Map System",

@@ -7,15 +7,18 @@
     "stages": [
       {
         "img": "images/settings/spawnstartpoint.png",
-        "codes": "sSpawnStartPoint"
+        "codes": "sSpawnStartPoint",
+        "inherit_codes": false
       },
       {
         "img": "images/settings/spawnarthurshouse.png",
-        "codes": "sSpawnArthursHouse"
+        "codes": "sSpawnArthursHouse",
+        "inherit_codes": false
       },
       {
         "img": "images/settings/spawncamp.png",
-        "codes": "sSpawnCamp"
+        "codes": "sSpawnCamp",
+        "inherit_codes": false
       }
     ]
   },
