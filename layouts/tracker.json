@@ -1,46 +1,10 @@
 {
-    "weapons_grid": {
-        "type": "itemgrid",
-        "h_alignment": "stretch",
-        "item_size": 32,
-        "item_margin": "8,1",
-        "rows": [[ "polarStar", "missiles", "machineGun", "bubbler", "fireball", "snake", "blade", "nemesis" ]]
-    },
-    "main_item_grid": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_margin": "1",
-        "item_height": 32,
-        "item_width": 64,
-        "rows": [
-            [ "arthursKey",  "locket",   "puppy0",     "cureAll",  "booster1",    "eventSue"    ],
-            [ "santasKey",   "idCard",   "lifePot",    "towRope",  "mask",        "eventKazuma" ],
-            [ "rustyKey",    "juice",    "letter",     "mushroom", "airtank",     "eventToroko" ],
-            [ "gumKey",      "gumBase",  "controller", "maPignon", "turbocharge", "eventCurly"  ],
-            [ "clinicKey",   "charcoal", "sprinklerB", "ironBond", "armsBarrier", "eventCore"   ],
-            [ "teleportKey", "bomb",     "sprinkler",  "nikumaru", "whimsical",   "mrLittle"    ]
-        ]
-    },
     "tracker_capture_item": {
         "type": "container",
         "content": {
             "type": "layout",
             "key": "main_item_grid"
         }
-    },
-    "full_item_grid": {
-        "type": "array",
-        "orientation": "vertical",
-        "content": [
-            {
-                "type": "layout",
-                "key": "weapons_grid"
-            },
-            {
-                "type": "layout",
-                "key": "main_item_grid"
-            }
-        ]
     },
     "tracker_default": {
         "type": "container",
@@ -66,7 +30,18 @@
                         },
                         {
                             "type": "group",
+                            "header": "Bosses",
+                            "width": 416,
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "bosses_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
                             "header": "Pinned Locations",
+                            "dock": "bottom",
                             "content": {
                                 "type": "recentpins",
                                 "style": "wrap",

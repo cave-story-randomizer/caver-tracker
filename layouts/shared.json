@@ -1,0 +1,48 @@
+{
+  "weapons_grid": {
+    "type": "itemgrid",
+    "h_alignment": "stretch",
+    "item_size": 32,
+    "item_margin": "8,1",
+    "rows": [[ "polarStar", "missiles", "machineGun", "bubbler", "fireball", "snake", "blade", "nemesis" ]]
+  },
+"main_item_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1",
+    "item_height": 32,
+    "item_width": 64,
+    "rows": [
+      [ "arthursKey",  "locket",   "puppy0",     "cureAll",  "booster1",    "eventSue"    ],
+      [ "santasKey",   "idCard",   "lifePot",    "towRope",  "mask",        "eventKazuma" ],
+      [ "rustyKey",    "juice",    "letter",     "mushroom", "airtank",     "eventCurly"  ],
+      [ "gumKey",      "gumBase",  "controller", "maPignon", "turbocharge", "mapSystem"   ],
+      [ "clinicKey",   "charcoal", "sprinklerB", "ironBond", "armsBarrier", "lewds"       ],
+      [ "teleportKey", "bomb",     "sprinkler",  "nikumaru", "whimsical",   "mrLittle"    ]
+    ]
+  },
+  "full_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "layout",
+        "key": "weapons_grid"
+      },
+      {
+        "type": "layout",
+        "key": "main_item_grid"
+      }
+    ]
+  },
+  "bosses_grid": {
+    "type": "itemgrid",
+    "h_alignment": "stretch",
+    "item_size": 48,
+    "item_margin": "1",
+    "rows": [
+      [ "bossBalrog1",  "bossIgor",    "bossBalrog2", "bossBalfrog",  "bossCurly",   "bossOmega",    "bossToroko",   "bossPuuBlack" ],
+      [ "bossMonsterX", "bossBalrog3", "bossCore",    "bossIronhead", "bossSisters", "bossMaPignon", "bossRedDemon", "bossFinal"    ]
+    ]
+  }
+}

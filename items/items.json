@@ -181,6 +181,11 @@
       {
         "img": "images/rustykey.png",
         "codes": "rustyKey,rusty"
+      },
+      {
+        "img": "images/rustykeyused.png",
+        "codes": "rustyKey,rusty",
+        "secondary_codes": "used"
       }
     ]
   },
@@ -417,7 +422,6 @@
     "img": "images/sprinkler.png",
     "codes": "sprinkler"
   },
-  /*
   {
     "name": "Sprinklers",
     "type": "composite_toggle",
@@ -448,7 +452,6 @@
       }
     ]
   },
-  */
   {
     "name": "Controller",
     "type": "toggle",
@@ -510,21 +513,105 @@
     "codes": "eventKazuma"
   },
   {
-    "name": "Defeated Toroko+",
-    "type": "toggle",
-    "img": "images/eventtoroko.png",
-    "codes": "eventToroko"
-  },
-  {
-    "name": "Defeated Core",
-    "type": "toggle",
-    "img": "images/eventcore.png",
-    "codes": "eventCore"
-  },
-  {
     "name": "Saved Curly",
     "type": "toggle",
     "img": "images/eventcurly.png",
     "codes": "eventCurly"
+  },
+  {
+    "name": "Defeated Balrog 1",
+    "type": "toggle",
+    "img": "images/boss/balrog1.png",
+    "codes": "bossBalrog1"
+  },
+  {
+    "name": "Defeated Igor",
+    "type": "toggle",
+    "img": "images/boss/igor.png",
+    "codes": "bossIgor"
+  },
+  {
+    "name": "Defeated Balrog 2",
+    "type": "toggle",
+    "img": "images/boss/balrog2.png",
+    "codes": "bossBalrog2"
+  },
+  {
+    "name": "Defeated Balfrog",
+    "type": "toggle",
+    "img": "images/boss/balfrog.png",
+    "codes": "bossBalfrog"
+  },
+  {
+    "name": "Defeated Curly",
+    "type": "toggle",
+    "img": "images/boss/curly.png",
+    "codes": "bossCurly"
+  },
+  {
+    "name": "Defeated Omega",
+    "type": "toggle",
+    "img": "images/boss/omega.png",
+    "codes": "bossOmega"
+  },
+  {
+    "name": "Defeated Toroko+",
+    "type": "toggle",
+    "img": "images/boss/toroko.png",
+    "codes": "bossToroko"
+  },
+  {
+    "name": "Defeated Puu Black",
+    "type": "toggle",
+    "img": "images/boss/puublack.png",
+    "codes": "bossPuuBlack"
+  },
+  {
+    "name": "Defeated Monster X",
+    "type": "toggle",
+    "img": "images/boss/monsterx.png",
+    "codes": "bossMonsterX"
+  },
+  {
+    "name": "Defeated Balrog 3",
+    "type": "toggle",
+    "img": "images/boss/balrog3.png",
+    "codes": "bossBalrog3"
+  },
+  {
+    "name": "Defeated Core",
+    "type": "toggle",
+    "img": "images/boss/core.png",
+    "codes": "bossCore"
+  },
+  {
+    "name": "Defeated Ironhead",
+    "type": "toggle",
+    "img": "images/boss/ironhead.png",
+    "codes": "bossIronhead"
+  },
+  {
+    "name": "Defeated the Sisters",
+    "type": "toggle",
+    "img": "images/boss/sisters.png",
+    "codes": "bossSisters"
+  },
+  {
+    "name": "Defeated Ma Pignon",
+    "type": "toggle",
+    "img": "images/boss/mapignon.png",
+    "codes": "bossMaPignon"
+  },
+  {
+    "name": "Defeated Red Demon",
+    "type": "toggle",
+    "img": "images/boss/reddemon.png",
+    "codes": "bossRedDemon"
+  },
+  {
+    "name": "Final Boss",
+    "type": "toggle",
+    "img": "images/boss/final.png",
+    "codes": "bossFinal"
   }
 ]

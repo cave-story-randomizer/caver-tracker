@@ -6,5 +6,6 @@ if not (string.find(Tracker.ActiveVariantUID, "items_only")) then
     Tracker:AddLocations("locations/locations.json")    
 end
 
+Tracker:AddLayouts("layouts/shared.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")

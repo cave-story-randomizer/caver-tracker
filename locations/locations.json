@@ -28,7 +28,7 @@
               },
               {
                 "name": "Gunsmith Upgrade",
-                "access_rules": [ "polarstar,flight,eventCore" ],
+                "access_rules": [ "polarstar,flight,bossCore" ],
                 "item_count": 1
               }
             ]
@@ -168,7 +168,7 @@
             "sections": [
               {
                 "name": "Professor Booster",
-                "access_rules": [ "eventCore" ],
+                "access_rules": [ "bossCore" ],
                 "item_count": 1
               }
             ]
@@ -282,7 +282,7 @@
         "name": "Egg Corridor?",
         "group": "Egg Corridor",
         "color": "#798E84",
-        "access_rules": [ "eventCore", "eventKazuma" ],
+        "access_rules": [ "bossCore", "eventKazuma" ],
 
         "children": [
           {
@@ -782,7 +782,7 @@
             "sections": [
               {
                 "name": "Defeated Toroko+",
-                "hosted_item": "eventToroko"
+                "hosted_item": "bossToroko"
               },
               {
                 "name": "King",
@@ -829,7 +829,7 @@
       {
         "name": "West Labyrinth",
         "group": "Labyrinth",
-        "access_rules": [ "eventToroko,weaponBoss", "flight,weaponBoss" ],
+        "access_rules": [ "bossToroko,weaponBoss", "flight,weaponBoss" ],
 
         "children": [
           {
@@ -927,7 +927,7 @@
       {
         "name": "East Labyrinth",
         "group": "Labyrinth",
-        "access_rules": [ "eventToroko,flight", "eventToroko,weaponBoss,cureAll", "flight,weaponBoss,cureAll" ],
+        "access_rules": [ "bossToroko,flight", "bossToroko,weaponBoss,cureAll", "flight,weaponBoss,cureAll" ],
 
         "children": [
           {
@@ -977,12 +977,12 @@
               },
               {
                 "name": "Drowned Curly",
-                "access_rules": [ "eventCore" ],
+                "access_rules": [ "bossCore" ],
                 "item_count": 1
               },
               {
                 "name": "Defeated Core",
-                "hosted_item": "eventCore"
+                "hosted_item": "bossCore"
               }
             ]
           },
@@ -1000,8 +1000,8 @@
             ],
             "sections": [
               {
-                "name": "Saved Curly",
-                "access_rules": [ "eventCore,towRope" ],
+                "name": "Drained Curly",
+                "access_rules": [ "bossCore,towRope" ],
                 "hosted_item": "eventCurly"
               },
               {
