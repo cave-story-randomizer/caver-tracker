@@ -17,11 +17,6 @@
       },
       {
         "type": "item",
-        "item": "sPuppy",
-        "margin": "0,5"
-      },
-      {
-        "type": "item",
         "item": "sSequence",
         "margin": "0,5"
       },

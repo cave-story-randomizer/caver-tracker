@@ -178,6 +178,25 @@
                 "item_count": 1
               }
             ]
+          },
+          {
+            "name": "Shack",
+            "short_name": "Shack",
+            "access_rules": [ "silverLocket,weaponBoss" ],
+
+            "map_locations": [
+              {
+                "map": "mimigavillage",
+                "x": 670,
+                "y": 830
+              }
+            ],
+            "sections": [
+              {
+                "name": "Balrog 1",
+                "hosted_item": "bossBalrog1"
+              }
+            ]
           }
         ]
       }
@@ -697,6 +716,24 @@
                 "item_count": 1
               }
             ]
+          },
+          {
+            "name": "Omega Arena",
+            "short_name": "Omega",
+            "access_rules": ["weaponBoss"],
+            "map_locations": [
+              {
+                "map": "sandzone",
+                "x": 2335,
+                "y": 200
+              }
+            ],
+            "sections": [
+              {
+                "name": "Omega",
+                "hosted_item": "bossOmega"
+              }
+            ]
           }
         ]
       },
@@ -936,6 +973,8 @@
           {
             "name": "Clinic Ruins",
             "short_name": "Clinic",
+            "access_rules": [ "clinicKey,weaponBoss" ],
+
             "map_locations": [
               {
                 "map": "labyrinthwest",
@@ -946,8 +985,30 @@
             "sections": [
               {
                 "name": "Ghost in the Clinic",
-                "access_rules": [ "clinicKey,weaponBoss" ],
                 "item_count": 1
+              },
+              {
+                "name": "Puu Black",
+                "hosted_item": "bossPuuBlack"
+              }
+            ]
+          },
+          {
+            "name": "Monster X Arena",
+            "short_name": "Monster X",
+            "access_rules": [ "weaponBoss" ],
+
+            "map_locations": [
+              {
+                "map": "labyrinthwest",
+                "x": 1885,
+                "y": 200
+              }
+            ],
+            "sections": [
+              {
+                "name": "Monster X",
+                "hosted_item": "bossMonsterX"
               }
             ]
           }
@@ -962,6 +1023,8 @@
           {
             "name": "Boulder Chamber",
             "short_name": "Boulder",
+            "access_rules": [ "cureAll,weaponBoss" ],
+
             "map_locations": [
               {
                 "map": "labyrintheast",
@@ -972,8 +1035,11 @@
             "sections": [
               {
                 "name": "Boulder Chest",
-                "access_rules": [ "cureAll,weaponBoss" ],
                 "item_count": 1
+              },
+              {
+                "name": "Balrog 3",
+                "hosted_item": "bossBalrog3"
               }
             ]
           },
