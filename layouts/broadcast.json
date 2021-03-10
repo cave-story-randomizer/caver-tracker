@@ -2,7 +2,6 @@
     "tracker_broadcast": {
         "type": "container",
         "width": 416,
-        "background": "#212121",
         "content": {
             "type": "array",
             "orientation": "vertical",

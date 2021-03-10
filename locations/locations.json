@@ -155,7 +155,7 @@
               {
                 "name": "Mr Little",
                 "access_rules": [ "$canAccessPlantation,flight" ],
-                "hosted_item": "mrLittle"
+                "item_count": 1
               }
             ]
           },
@@ -581,6 +581,7 @@
             "sections": [
               {
                 "name": "Execution Chamber",
+                "access_rules": [ "weaponSN" ],
                 "item_count": 1
               }
             ]
